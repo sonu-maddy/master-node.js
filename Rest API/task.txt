@@ -1,0 +1,58 @@
+// mockaroo.com --- for generate data for testing purpose
+
+
+this is work i this session--------
+
+Rest Api - json
+
+get / users - list all users
+
+get /users/1 - get the user with id 1
+get /users/2 - get the user with id 2
+
+// Dynamic Path Parameters
+GET / API/USERS/:ID
+:ID -- VARIBLE
+
+post / users - create new user
+
+patch / user/ 1 - edit the user with id 1
+
+delete / user /1 - delete the user with id 1
+
+
+
+
+
+REST API------
+👉 Representational State Transfer
+
+🔹 Explanation
+
+REST is an architectural style for designing networked applications.
+
+It was introduced by Roy Fielding in his 2000 doctoral dissertation.
+
+REST uses simple HTTP methods (GET, POST, PUT, DELETE, etc.) to perform operations on resources.
+
+🔹 Key Points
+
+Representational → Data (resource) is represented in formats like JSON, XML, or HTML.
+
+State → The resource's state (data) is transferred between client and server.
+
+Transfer → The actual movement of this representation happens over HTTP.
+
+🔹 Example in REST API
+
+If we have a "users" resource:
+
+GET /users → fetch all users
+
+GET /users/1 → fetch user with id = 1
+
+POST /users → create a new user
+
+PUT /users/1 → update user with id = 1
+
+DELETE /users/1 → delete user with id = 1

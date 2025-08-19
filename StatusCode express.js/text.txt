@@ -1,0 +1,30 @@
+🔎 Common HTTP Status Codes in Express
+Code	Meaning	Example Usage
+200	OK (Success)	Normal GET response
+201	Created	After creating a resource (user, post, etc.)
+204	No Content	Success but no data to return
+400	Bad Request	Invalid input
+401	Unauthorized	User not logged in
+403	Forbidden	User logged in but no permission
+404	Not Found	Resource does not exist
+500	Internal Server Error	Something broke on the server
+🚀 Example Behavior
+
+Visit http://localhost:3000/ → shows 200 Success.
+
+Visit http://localhost:3000/user with POST → shows 201 Created.
+
+Visit http://localhost:3000/not-found → shows 404 Not Found.
+
+Visit http://localhost:3000/error → shows 500 Server Error.
+
+
+
+HTTP response status codes
+HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100 – 199)
+Successful responses (200 – 299)
+Redirection messages (300 – 399)
+Client error responses (400 – 499)
+Server error responses (500 – 599)

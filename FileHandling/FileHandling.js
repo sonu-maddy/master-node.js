@@ -40,7 +40,15 @@ const file = require('fs');
 
 
 // make folder
-// file.mkdirSync("my-docs/")
+file.mkdirSync("my-docs-new/")
+
+
+    file.writeFile('newfile.txt', 'Hello, Node.js!', (err) => {
+        if (err) throw err;
+        console.log('File created and content written successfully!');
+    });
+
+
 
 // make recursively folder 
-file.mkdirSync("my-docs/a/b", {recursive:true});
+// file.mkdirSync("my-docs/a/b", {recursive:true});
